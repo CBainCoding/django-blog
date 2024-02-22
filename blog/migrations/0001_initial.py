@@ -8,6 +8,7 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
+        ('auth', '0001_initial'),  # This should be the initial migration for the auth app
     ]
 
     operations = [
